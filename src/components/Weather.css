@@ -1,0 +1,68 @@
+.main {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: transparent;
+
+  color: white;
+  margin: auto;
+  text-align: center;
+  margin-top: 10% !important;
+  border-radius: 20px;
+  padding: 2rem 0px;
+  backdrop-filter: blur(20px);
+}
+.cloud {
+  background-image: url("../Images/sea-6811812_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rain {
+  background-image: url("../Images/water-8622588_1280.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.sunny {
+  background-image: url("../Images/sunset-1651426_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.partlyCloud {
+  background-image: url("../Images/partlyCloudyDay.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.clearDay {
+  background-image: url("../Images/clearDay.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+form .search {
+  padding: 0.5rem 0.1rem;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+
+form button {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.details .city {
+  font-size: 2rem;
+}
+.details .temp,
+p .fas {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
